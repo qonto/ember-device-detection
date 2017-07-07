@@ -3,13 +3,11 @@
 
 module.exports = {
   name: 'ember-device-detection',
-  contentFor: function(type, config) {
-    if (type === 'head-footer') {
-      if (config.environment === 'test') {
-        return ''
-      } else {
-        return "<script src='/assets/ua-parser.min.js'></script>"
-      }
-    }
+
+  included() {
+    this._super.included.apply(this, arguments);
+
+    this.import('bower_components/ua-parser-js/dist/ua-parser.min.js');
+    this.import('vendor/detect.js');
   }
 };

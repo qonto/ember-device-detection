@@ -10,7 +10,6 @@
     "user-agent",
     "ios",
     "android"
-
   ],
   "license": "MIT",
   "author": "Nizar Ayari",
@@ -26,9 +25,6 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "dependencies": {
-    "ember-cli-babel": "^6.0.0"
-  },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
     "ember-cli": "2.13.2",
@@ -37,6 +33,7 @@
     "ember-cli-htmlbars": "^1.1.1",
     "ember-cli-htmlbars-inline-precompile": "^0.4.0",
     "ember-cli-inject-live-reload": "^1.4.1",
+    "ember-cli-inline-content": "^0.4.1",
     "ember-cli-qunit": "^4.0.0",
     "ember-cli-shims": "^1.1.0",
     "ember-cli-sri": "^2.1.0",
@@ -53,5 +50,8 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "dependencies": {
+    "ember-cli-babel": "^6.6.0"
   }
 }

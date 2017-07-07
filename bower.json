@@ -1,0 +1,6 @@
+{
+  "name": "ember-device-detection",
+  "dependencies": {
+    "ua-parser-js": "^0.7.13"
+  }
+}
