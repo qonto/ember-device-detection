@@ -238,7 +238,7 @@ window.Modernizr=function(a,b,c){function w(a){i.cssText=a}function x(a,b){retur
   }
 
   /**
-   * Evaluates the type with user-agent.
+   * Evaluates the type of the device with user-agent.
    */
   UAParser.prototype.evaluateType = function(type) {
     const device = this.getDevice().type

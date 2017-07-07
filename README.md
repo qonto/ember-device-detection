@@ -1,6 +1,6 @@
 # ember-device-detection
 
-Ember device detection is an Ember addon for client-side device detection and a wrapper of the UA parser library. It makes it easy to render different views based on device `operating system (iOS, Android,...)`, `type (tablet, Mobile, phone,...)`, `browser(Chrome, safari, IE,...)` and `media queries (only screen and (max-device-width: 640px))`.
+Ember device detection is an Ember addon for client-side device detection and a wrapper of the UA parser library. It makes it easy to render different views or url redirection based on device `operating system (iOS, Android,...)`, `type (tablet, Mobile, phone,...)`, `browser(Chrome, safari, IE,...)` and `media queries (only screen and (max-device-width: 640px))`.
 
 ## Installation
 
