@@ -9,6 +9,8 @@ module.exports = {
   //   };
   // }
 
+  normalizeEntityName: function() {},
+
   afterInstall: function() {
     let blueprint = this;
 
