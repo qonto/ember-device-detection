@@ -120,7 +120,7 @@ Ubuntu, UNIX, VectorLinux, WebOS, Windows [Phone/Mobile], Zenwalk
 -----------
 `type` attribute must match one of these value listed below:
   ```html
-    <link rel="alternate" device="value" href="url" id="id">
+    <link rel="alternate" type="value" href="url" id="id">
   ```
   ```
 # Possible 'value'
