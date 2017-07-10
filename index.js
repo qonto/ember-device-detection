@@ -4,6 +4,8 @@
 module.exports = {
   name: 'ember-device-detection',
 
+  normalizeEntityName() {},
+
   included() {
     this._super.included.apply(this, arguments);
 
