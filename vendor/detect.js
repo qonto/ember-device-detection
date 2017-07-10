@@ -104,7 +104,6 @@ window.Modernizr=function(a,b,c){function w(a){i.cssText=a}function x(a,b){retur
   Version.prototype.matches = function() {
     // Apply a polyfill for the touch-enabled media query (not currently
     // standardized, only implemented in Firefox: http://goo.gl/LrmIa)
-    debugger
     if (this.mediaQuery) {
       var mqParser = new MQParser(this.mediaQuery);
       return mqParser.evaluate();
