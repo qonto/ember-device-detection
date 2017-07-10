@@ -17,9 +17,9 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/nizarayari/ember-device-detection.git",
-  "bugs": "https://github.com/nizarayari/ember-device-detection/issues",
-  "homepage": "https://github.com/nizarayari/ember-device-detection/blob/master/README.md",
+  "repository": "https://github.com/qonto/ember-device-detection.git",
+  "bugs": "https://github.com/qonto/ember-device-detection/issues",
+  "homepage": "https://github.com/qonto/ember-device-detection/blob/master/README.md",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
