@@ -1,6 +1,6 @@
 {
   "name": "ember-device-detection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ember device detection is an Ember addon for client-side device detection and a wrapper of the UA parser library. It makes it easy to render different views or url redirection based on device type, operating system, browser and media queries.",
   "keywords": [
     "ember-addon",
